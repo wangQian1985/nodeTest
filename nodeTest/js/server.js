@@ -8,6 +8,7 @@ var
 // 从命令行参数获取root目录，默认是当前目录:
 var root = path.resolve(process.argv[2] || '.');
 //看看11
+//我弟二次看
 console.log('Static root dir: ' + root);
 
 // 创建服务器:
