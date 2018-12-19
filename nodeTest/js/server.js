@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 var
     fs = require('fs'),
     url = require('url'),
@@ -9,6 +9,7 @@ var
 var root = path.resolve(process.argv[2] || '.');
 //看看11
 //我弟二次看
+//这是给分支m看得
 console.log('Static root dir: ' + root);
 
 // 创建服务器:
